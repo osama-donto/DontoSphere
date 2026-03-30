@@ -4,9 +4,9 @@ Lean data workspace for the HeyDonto stack.
 
 ## What Is Here
 
-- `src/exploration/sql/db_setup.sql`: bootstrap script for the local Postgres dev database
-- `src/exploration/sql/ddl/raw_supplier_expl_ddl.sql`: supplier exploration DDL
-- `src/exploration/notebooks/supplier.ipynb`: exploration notebook
+- `src/administration/db_setup.sql`: bootstrap script for the local Postgres dev database
+- `src/exploration/sql/ddl/`: definitions of both supplier and pms entities
+- `src/exploration/notebooks/`: exploration notebooks 
 - `datasets/`: source files used during exploration, ensure that 05_SUPPLIER_DATA from the google drive is in this dataste directory.
 
 ## Dev Database
