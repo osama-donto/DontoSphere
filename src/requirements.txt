@@ -1,0 +1,6 @@
+pandas 
+sqlalchemy 
+matplotlib
+psycopg2-binary
+jupyter
+ipykernel
